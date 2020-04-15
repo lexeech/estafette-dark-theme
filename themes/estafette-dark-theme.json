@@ -1,0 +1,381 @@
+{
+  "gutterSettings": {
+    "background": "#1d1f21",
+    "divider": "#75715E",
+    "foreground": "#75715E"
+  },
+  "name": "Estafette Dark",
+  "semanticClass": "theme.dark.estafette_dark",
+  "settings": [
+    {
+      "settings": {
+        "background": "#1d1f20",
+        "caret": "#F8F8F0",
+        "foreground": "#c5c8c6",
+        "invisibles": "#49483E",
+        "lineHighlight": "#49483E",
+        "selection": "#49483E",
+        "findHighlight": "#FFE792",
+        "findHighlightForeground": "#000000",
+        "selectionBorder": "#222218",
+        "activeGuide": "#9D550FB0",
+        "guide": "#48473E",
+        "bracketsForeground": "#F8F8F2A5",
+        "bracketsOptions": "underline",
+        "bracketContentsForeground": "#F8F8F2A5",
+        "bracketContentsOptions": "underline",
+        "tagsOptions": "stippled_underline"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#737c7c"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#a8f13e"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#9a99ff"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#99cc8a"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#99cc8a"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#c8c5ff"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#8ecbfe"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#66d9ef"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#ffffac",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#c5c8c6"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#dbd2a7"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#bbc5fe"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#96cbfe"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#96cbfe"
+      }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#f7ffb6"
+      }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby Source Text",
+      "scope": "source.ruby",
+      "settings": {
+        "foreground": "#c5c8c6"
+      }
+    },
+    {
+      "name": "Ruby Key",
+      "scope": "constant.other.symbol.ruby.19syntax",
+      "settings": {
+        "foreground": "#99cc99"
+      }
+    },
+    {
+      "name": "Ruby Constant",
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#c6c5e2"
+      }
+    },
+    {
+      "name": "Ruby Class",
+      "scope": "entity.name.type.class.ruby",
+      "settings": {
+        "foreground": "#ffff9a"
+      }
+    },
+    {
+      "name": "Ruby Module",
+      "scope": "entity.name.type.module.ruby",
+      "settings": {
+        "foreground": "#ffeb9b"
+      }
+    },
+    {
+      "name": "Ruby Embeded Text",
+      "scope": "source.ruby.embedded.source",
+      "settings": {
+        "foreground": "#ededed"
+      }
+    },
+    {
+      "name": "Ruby Embeded Punctuation",
+      "scope": "source.ruby.embedded.source punctuation.section.embedded.ruby",
+      "settings": {
+        "foreground": "#0b9ba0"
+      }
+    },
+    {
+      "name": "Java Import",
+      "scope": "storage.modifier.import.java",
+      "settings": {
+        "foreground": "#95cbfe"
+      }
+    },
+    {
+      "name": "Java Storage Modifier",
+      "scope": "storage.modifier.java",
+      "settings": {
+        "foreground": "#a0d2ff"
+      }
+    },
+    {
+      "name": "Java Class Name",
+      "scope": "entity.name.type.class.java",
+      "settings": {
+        "foreground": "#ffffb6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Java Primitive",
+      "scope": "storage.type.primitive.array.java",
+      "settings": {
+        "foreground": "#cfcb82"
+      }
+    },
+    {
+      "name": "Java Object",
+      "scope": "storage.type.object.array.java",
+      "settings": {
+        "foreground": "#cfcb90"
+      }
+    },
+    {
+      "name": "Java Integer",
+      "scope": "constant.numeric.java",
+      "settings": {
+        "foreground": "#f770fd"
+      }
+    },
+    {
+      "name": "Java Type",
+      "scope": "storage.type.java",
+      "settings": {
+        "foreground": "#cfcb89"
+      }
+    },
+    {
+      "name": "Java Dereference",
+      "scope": "keyword.operator.dereference.java",
+      "settings": {
+        "foreground": "#ededed"
+      }
+    },
+    {
+      "name": "diff.header",
+      "scope": ["meta.diff", "meta.diff.header"],
+      "settings": {
+        "foreground": "#75715E"
+      }
+    },
+    {
+      "name": "Diff insertion",
+      "scope": ["markup.inserted.diff", "meta.diff.header.to-file"],
+      "settings": {
+        "foreground": "#9fff60"
+      }
+    },
+    {
+      "name": "Diff deletion",
+      "scope": ["markup.deleted.diff", "meta.diff.header.from-file"],
+      "settings": {
+        "foreground": "#66d9ef"
+      }
+    },
+    {
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "settings": {
+        "foreground": "#AE81FFA0"
+      }
+    },
+    {
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "Markup Quote Beginning",
+      "scope": "beginning.punctuation.definition.quote.markdown",
+      "settings": {
+        "foreground": "#8EEC00"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0BDCF4"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Inline",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FDFFAC"
+      }
+    },
+    {
+      "name": "Markup Headings",
+      "scope": "markup.heading",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0BDCF4"
+      }
+    },
+    {
+      "name": "Markup Setext Header",
+      "scope": "markup.heading.setext",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#0BDCF4"
+      }
+    },
+    {
+      "name": "Markup Lists Beginning",
+      "scope": "beginning.punctuation.definition.list.markdown",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#7DCAFF"
+      }
+    },
+    {
+      "name": "Markup Punctation",
+      "scope": [
+        "punctuation.definition.markdown",
+        "fenced_code.block.language"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#FDFFAC"
+      }
+    }
+  ],
+  "colorSpaceName": "sRGB",
+  "author": "Wladimir Zhosan",
+  "comment": "original by Wladimir Zhosan"
+}

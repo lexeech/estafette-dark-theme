@@ -1,0 +1,32 @@
+{
+  "license": "MIT",
+  "name": "estafette-dark-theme",
+  "displayName": "Estafette Dark",
+  "description": "a beautiful Estafette Dark theme",
+  "version": "1.0.0",
+  "publisher": "estafette-lexeech",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lexeech/estafette-dark-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/lexeech/estafette-dark-theme/issues",
+    "email": "iaskivsky@gmail.com"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Estafette Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/estafette-dark-theme.json"
+      }
+    ]
+  }
+}
